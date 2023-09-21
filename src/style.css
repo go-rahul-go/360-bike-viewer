@@ -1,0 +1,24 @@
+.bike-box {
+    width: 100%;
+    height: 90vh;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slide{
+    width:60%;
+    height: 90%;
+    object-fit: contain;
+   
+    
+}
+.slide-hidden{
+    display: none;
+}
+.bike-box p{
+    font-size: 3vw;
+    font-weight: 700;
+    color:white;
+}
